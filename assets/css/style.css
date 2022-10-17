@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Open+Sans:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+*{
+    font-family: 'Lato';
+    box-sizing: border-box;
+    font-family: lato;
+}
+html{
+    overflow-x: hidden; 
+}
+body{ 
+    margin: 0;      
+    box-sizing: border-box;
+    overflow-x: hidden; 
+    font-family: 'rubik', sans-serif;    
+}
+.single-pricing-box{
+    width: 300px;
+    height: auto;
+    border: 1px solid #C0C0C0;
+}
+.single-pricing-box h3{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: 700;
+}
+.pricing-icon {
+    text-align: center;    
+}
+.pricing-icon img {
+    width: 80px;
+    height: 70px;    
+    margin: 10px 0px;
+}
+.pricing-list ul {
+    list-style: none;
+    margin: 0;
+    padding-left: 70px;
+    line-height: 26px;
+}
+.pricing-list ul li::before{
+    font-family: fontawesome;content: "\f00c"; 
+    padding-right: 8px;
+    color: #239B56;      
+}
+.pricing-list ul li.off::before{
+    font-family: fontawesome;content: "\f00d";
+    padding-right: 14px;
+    color: #ce0c0c;       
+}
+.single-pricing-box .pricing-btn a{
+    text-align: center;
+    padding: 10px 20px;
+    border: 1px solid #239B56;
+    margin: 30px 0; 
+    border-radius: 25px;   
+}
+.single-pricing-box .pricing-btn a:focus{
+    padding: 10px 20px;
+    border: 1px solid #239B56;    
+}
+.pricing-header{
+    padding: 40px 0px;
+
+}
+.pricing-header  span{
+    color: black;
+}
+.pricing-header  h3{
+    color: #239B56;
+}
+.pricing-header  p{
+    color: #ABB2B9;
+}
